@@ -1,10 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
 
-#include <stddef.h>  /* size_t için */
+#include <stddef.h>
 
-/* Function prototypes */
 void print_array(const int *array, size_t size);
-void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
-#endif /* SORT_H */
+#endif
